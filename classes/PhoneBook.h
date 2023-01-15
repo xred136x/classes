@@ -11,6 +11,9 @@ public:
 	PhoneBook();
 	~PhoneBook();
 	void AddNumber(std::string& name, std::string& num);
+	int getLen(); 
+	std::string getNum(int index);
+	std::string getName(int index);
 
 };
 

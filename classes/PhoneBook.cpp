@@ -28,3 +28,18 @@ void PhoneBook::AddNumber(std::string& name, std::string& num)
 	_name = tmpNames;
 	_index++;
 }
+
+int PhoneBook::getLen()
+{
+	return _index;
+}
+
+std::string PhoneBook::getNum(int index)
+{
+	return _num[index];
+}
+
+std::string PhoneBook::getName(int index)
+{
+	return _name[index];
+}
